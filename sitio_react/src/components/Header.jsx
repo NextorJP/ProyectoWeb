@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logo192.png'
+import logo from '../images/logoicono.png'
 import { NavLink } from 'react-router-dom'
 
 export const Header = () => {
@@ -7,11 +7,11 @@ export const Header = () => {
     <>
         <header style={{color:"white"}}>
             <nav className="navbar navbar-expand-lg navbar-light bg-primary">
-                <NavLink to="/home">
+                <NavLink to="/menu">
                     <img src={logo} height="100" alt="No Encontrada" />
                 </NavLink>
 
-                <h1>Sitio Web con React</h1>
+                <h1>Mixtos Restaurante</h1>
 
                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span className="navbar-toggler-icon"></span>
@@ -19,10 +19,10 @@ export const Header = () => {
 
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto">
-                        <h4><NavLink to="/home" className="nav-item nav-link text-center" style={{color:"white"}}>Home</NavLink></h4>
-                        <h4><NavLink to="/doctores" className="nav-item nav-link text-center" style={{color:"white"}}>Doctores</NavLink></h4>
-                        <h4><NavLink to="/mensajes" className="nav-item nav-link text-center" style={{color:"white"}}>Mensajes</NavLink></h4>
-                        <h4><NavLink to="/acercade" className="nav-item nav-link text-center" style={{color:"white"}}>Acerca De...</NavLink></h4>
+                        <h4><NavLink to="/menu" className="nav-item nav-link text-center" style={{color:"white"}}>Menú</NavLink></h4>
+                        <h4><NavLink to="/ubicacion" className="nav-item nav-link text-center" style={{color:"white"}}>Ubicación</NavLink></h4>
+                        <h4><NavLink to="/horarios" className="nav-item nav-link text-center" style={{color:"white"}}>Horarios</NavLink></h4>
+                        <h4><NavLink to="/iniciar-sesion" className="nav-item nav-link text-center" style={{color:"white"}}>INICIAR SESIÓN</NavLink></h4>
                     </div>
                 </div>
 
