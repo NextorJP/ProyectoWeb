@@ -6,7 +6,7 @@ import ander from "../images/anderson_tognon.jpeg"
 import nata from "../images/natalia_soto.jpg"
 import jeni from "../images/jennifer_vargas.jpeg"
 
-export const ubicacion = () => {
+export const Ubicacion = () => {
   return (
     <>
         <center>

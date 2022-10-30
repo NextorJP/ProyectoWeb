@@ -2,12 +2,11 @@
 import './App.css';
 import { Header } from './components/Header';
 import { Menu } from './components/Menu';
-import { ErrorNotFound } from './components/ErrorNotFound';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Ubicacion } from './components/Ubicacion';
 import { Horarios } from './components/Horarios';
 import { IniciarSesion } from './components/IniciarSesion';
-import { Menu } from './components/Menu';
+import { ErrorNotFound } from './components/ErrorNotFound';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
