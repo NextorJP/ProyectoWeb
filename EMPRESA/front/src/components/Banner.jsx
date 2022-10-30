@@ -1,5 +1,5 @@
 import React from 'react'
-
+import img_banner_2 from '../images/img_banner_2.jpg'
 import img_banner_2 from '../images/img_banner_2.jpg'
 import img_banner_3 from '../images/img_banner_3.jpg'
 
