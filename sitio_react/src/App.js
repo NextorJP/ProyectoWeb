@@ -1,12 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
 import { Header } from './components/Header';
-import { Home } from './components/Home';
+import { Menu } from './components/Menu';
 import { ErrorNotFound } from './components/ErrorNotFound';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Doctores } from './components/Doctores';
-import { AcercaDe } from './components/AcercaDe';
-import { Mensajes } from './components/Mensajes';
+import { Ubicacion } from './components/Ubicacion';
+import { Horarios } from './components/Horarios';
+import { IniciarSesion } from './components/IniciarSesion';
+import { Menu } from './components/Menu';
 
 function App() {
   return (
@@ -16,11 +17,11 @@ function App() {
         <Header/>
 
         <Routes>
-          <Route exact path="/" element={<Home/>}/>
-          <Route exact path="/home" element={<Home/>}/>
-          <Route exact path="/doctores" element={<Doctores/>}/>
-          <Route exact path="/acercade" element={<AcercaDe/>}/>
-          <Route exact path="/mensajes" element={<Mensajes/>}/>
+          <Route exact path="/" element={<Menu/>}/>
+          <Route exact path="/menu" element={<Menu/>}/>
+          <Route exact path="/ubicacion" element={<Ubicacion/>}/>
+          <Route exact path="/horarios" element={<Horarios/>}/>
+          <Route exact path="/iniciarsesion" element={<IniciarSesion/>}/>
           <Route exact path="*" element={<ErrorNotFound/>}/>
         </Routes>
       </BrowserRouter>

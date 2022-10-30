@@ -1,13 +1,13 @@
 import React from 'react'
 import { Banner } from './Banner';
-import { ContentHome } from './ContentHome';
+import { ContentMenu } from './ContentMenu';
 import { Footer } from './Footer';
 
-export const Home = () => {
+export const Menu = () => {
   return (
     <>
         <Banner/>
-        <ContentHome/>
+        <ContentMenu/>
         <Footer/>
     </>
   )
