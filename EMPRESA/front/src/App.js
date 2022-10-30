@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Header/>
         <Routes>
-          <Route exact path="/Menu" element={<Menu/>}/>
+          <Route exact path="/Menu" element={<Monjnijbbbhenu/>}/>
           <Route exact path="/ubicacion" element={<Ubicacion/>}/>
           <Route exact path="/horarios" element={<Horarios/>}/>
           <Route exact path="*" element={<ErrorNotFound/>}/>
