@@ -34,7 +34,7 @@ export const ContentMenu = () => {
             
             <div className="col">
                 <div className="card">
-                <img src={card3} className="card-img-top" alt="..."/>
+                <img className="rounded-circle card-img-top" width="250" height="350" src={card3} alt="..." />  
                 <div className="card-body">
                     <h5 className="card-title">CALENTAO PAISA</h5>
                     <p className="card-text" style={{textAlign:"justify"}}>Arroz, papa, frijol, chorizo,  maduro, carne desmechada.</p>
