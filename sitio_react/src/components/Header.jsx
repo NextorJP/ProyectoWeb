@@ -22,7 +22,7 @@ export const Header = () => {
                         <h4><NavLink to="/menu" className="nav-item nav-link text-center" style={{color:"white"}}>Menú</NavLink></h4>
                         <h4><NavLink to="/ubicacion" className="nav-item nav-link text-center" style={{color:"white"}}>Ubicación</NavLink></h4>
                         <h4><NavLink to="/horarios" className="nav-item nav-link text-center" style={{color:"white"}}>Horarios</NavLink></h4>
-                        <h4><NavLink to="/iniciar-sesion" className="nav-item nav-link text-center" style={{color:"white"}}>INICIAR SESIÓN</NavLink></h4>
+                        <h4><NavLink to="/iniciarsesion" className="nav-item nav-link text-center" style={{color:"white"}}>INICIAR SESIÓN</NavLink></h4>
                     </div>
                 </div>
 

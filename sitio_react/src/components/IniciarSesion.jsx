@@ -46,16 +46,13 @@ export const IniciarSesion = () => {
 
   return (
       <center>
-        <div className="container" style={{width:"70%", marginTop:20, background:"#A8BCFF", padding:20}}>
+        <div className="container" style={{width:"30%", marginTop:30, background:"#FF7F00", padding:30}}>
             <form id="miFormulario" onSubmit={botonGuardarSimple}>
-                <h1 className='h1'>Mensajes</h1>
-                <input style={{marginBottom:20}} className="form-control form-control-lg" type="text" placeholder="Digite su Nombre" onChange={(e)=>setNombre(e.target.value)} />
-                <input style={{marginBottom:20}} className="form-control form-control-lg" type="email" placeholder="Digite su Correo" onChange={(e)=>setCorreo(e.target.value)} />
-                <textarea style={{marginBottom:20}} className="form-control form-control-lg" placeholder="Digite su Mensaje" onChange={(e)=>setMensaje(e.target.value)}>
-                </textarea>
-
+                <h1 className='h1'>Administrador</h1>
+                <input style={{marginBottom:20}} className="form-control form-control-lg" type="text" placeholder="Digite su Usuario" onChange={(e)=>setNombre(e.target.value)} />
+                <input style={{marginBottom:20}} className="form-control form-control-lg" type="email" placeholder="Digite su Contraseña" onChange={(e)=>setCorreo(e.target.value)} />
                 <button className='btn btn-primary btn-lg'>
-                    Enviar Mensaje
+                    ENTRAR
                 </button>
             </form>
         </div>
