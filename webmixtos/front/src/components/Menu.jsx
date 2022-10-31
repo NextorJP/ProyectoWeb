@@ -7,6 +7,7 @@ export const Menu = () => {
   return (
     <>
         <Banner/>
+        {/* <ItemProduct/> */}
         <ContentMenu/>
         <Footer/>
     </>

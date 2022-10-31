@@ -26,6 +26,7 @@ export const ContentMenu = () => {
                 <div className="card-body">
                     <h5 className="card-title">CALENTAO CACHACO</h5>
                     <p className="card-text" style={{textAlign:"justify"}}>Arroz, papa, Lenteja,  carne de cerdo en trozos,  tocineta, cebolla grille</p>
+                    <h6 className='precioProducto'>Precio: &nbsp; &nbsp;&#60; 8000</h6>
                     <p><a className="btn btn-secondary" href="#">COMPRAR</a></p>
                 </div>
                 </div>
