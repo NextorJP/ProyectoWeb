@@ -7,7 +7,6 @@ import { Horarios } from './components/Horarios';
 import { IniciarSesion } from './components/IniciarSesion';
 import { ErrorNotFound } from './components/ErrorNotFound';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import ItemProduct from './components/ItemProduct';
 
 function App() {
   return (
