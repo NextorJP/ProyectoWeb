@@ -13,7 +13,7 @@ export const ContentMenu = () => {
                 <img src={card1} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">CALENTAO VALLUNO</h5>
-                    <p className="card-text" style={{textAlign:"justify"}}>Fundado en 1988, comenzó a funcionar como una Posta dependiente del aquel entonces Consultorio O'higgins.</p>
+                    <p className="card-text" style={{textAlign:"justify"}}>Arroz, papa, chorizo,  maduro, carne desmechada.</p>
                     <p><a className="btn btn-secondary" href="#">COMPRAR</a></p>
                 </div>
                 </div>
@@ -25,7 +25,7 @@ export const ContentMenu = () => {
                 <img src={card2} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">CALENTAO CACHACO</h5>
-                    <p className="card-text" style={{textAlign:"justify"}}>Inició su funcionamiento en 1958 pero después de dos años resultó destruido tras el terremoto de 1960.</p>
+                    <p className="card-text" style={{textAlign:"justify"}}>Arroz, papa, Lenteja,  carne de cerdo en trozos,  tocineta, cebolla grille</p>
                     <p><a className="btn btn-secondary" href="#">COMPRAR</a></p>
                 </div>
                 </div>
@@ -37,7 +37,7 @@ export const ContentMenu = () => {
                 <img src={card3} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">CALENTAO PAISA</h5>
-                    <p className="card-text" style={{textAlign:"justify"}}>Trabajadores se suman a paro indefinido de la salud por sueldos impagos. Sölo se atenderpan urgencias.</p>
+                    <p className="card-text" style={{textAlign:"justify"}}>Arroz, papa, frijol, chorizo,  maduro, carne desmechada.</p>
                     <p><a className="btn btn-secondary" href="#">COMPRAR</a></p>
                 </div>
                 </div>            
